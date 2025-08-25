@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  color: white;
+}
+
+.app {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #ff7b00;
+}
+
+.pro {
+  color: #ffffff;
+}
+
+.online {
+  color: #0f0;
+  font-size: 14px;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #5f2c82, #49a09d);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0 0 15px #49a09d;
+}
+
+.balance-card h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.sell-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sell-section button {
+  background: linear-gradient(90deg, #ff7b00, #ffb347);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+
+.withdraw {
+  margin: 20px 0;
+}
+
+.methods a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 0 10px #333;
+}
+
+.history table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history th, .history td {
+  padding: 8px;
+  border-bottom: 1px solid #333;
+}
+
+.form-container {
+  max-width: 300px;
+  margin: 50px auto;
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px #ff7b00;
+}
+
+.form-container input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.form-container button {
+  background: linear-gradient(90deg, #ff7b00, #ffb347);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
